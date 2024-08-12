@@ -1,0 +1,155 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.download-button {
+  position: relative;
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.download-button .down-icon {
+  display: none;
+}
+
+.download-button a {
+  text-decoration: none;
+  background-color: #0e89b4;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  display: inline-block;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.download-button a:hover {
+  background-color: #08678a;
+}
+
+/* Responsive Download Button */
+@media screen and (max-width: 1200px) {
+  .download-button .down-text {
+    display: none;
+  }
+
+  .download-button .down-icon {
+    display: inline-block;
+  }
+}
+
+.container {
+  display: flex;
+  width: 210mm;
+  height: 297mm;
+  margin: 20px auto;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+  width: 45%;
+  background-color: #daedf4;
+  padding: 20px;
+}
+
+.sidebar i {
+  color: #0082b0;
+  margin-right: 5px;
+}
+
+.sidebar h1 {
+  font-size: 1.8em;
+  color: #0082b0;
+  margin-bottom: 5px;
+}
+
+.sidebar h2 {
+  font-size: 1.2em;
+  color: #0082b0;
+  margin-bottom: 20px;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #3274c0;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebar h3 {
+  font-size: 1.2em;
+  color: #0082b0;
+}
+
+.sidebar p,
+.sidebar ul {
+  margin: 0 0 15px 0;
+  color: #333;
+  font-size: 1.05em;
+  text-align: left;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.sidebar a {
+  color: #0082b0;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  text-decoration: none;
+}
+
+.main-content {
+  width: 70%;
+  padding: 15px;
+  font-size: 1.05rem;
+}
+
+.main-content section {
+  margin-bottom: 15px;
+}
+
+.main-content h3 {
+  font-size: 1.1em;
+  color: #0082b0;
+}
+
+.main-content p {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.main-content ul {
+  list-style-type: disc;
+  margin-left: 0px;
+  color: #333;
+}
+
+.main-content ul li {
+  margin-bottom: 5px;
+}
+
+.main-content .align-items {
+  display: flex;
+  justify-content: space-between;
+}
